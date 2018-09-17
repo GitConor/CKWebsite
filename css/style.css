@@ -249,6 +249,7 @@ img {
 }
 
 .bio, .publications, .github {
+  font-family: 'Montserrat', sans-serif;
   grid-row: 1 / 8;
   grid-column: 2 / 5;
   align-self: start;
