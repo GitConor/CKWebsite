@@ -148,10 +148,18 @@ img {
   font-color: black;
 }
 
+.menu1clicked, .menu2clicked, .menu3clicked, .backclicked {
+  height: 20vw;
+  width: 20vw;
+  z-index: 4;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;  
+}
+
 .backhidden {
   grid-column: 1;
-  grid-row: 1;
-  align-self: center;
+  grid-row: 1 ;
+  align-self: start;
   justify-self: center;  
   z-index: 2;
   height: 0vh;
@@ -269,14 +277,6 @@ img {
   grid-row: 4 / 9;
   align-self: start;
   justify-self: center;  
-}
-
-.menu1clicked, .menu2clicked, .menu3clicked, .backclicked {
-  height: 20vw;
-  width: 20vw;
-  z-index: 4;
-  font-family: 'Rubik', sans-serif;
-  font-weight: bold;  
 }
 
 .conorpic {
