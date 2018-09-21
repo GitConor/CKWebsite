@@ -14,18 +14,21 @@ $(document).ready(function(){
     });
     $(".menu1hidden").click(function(){
         $(".circle2").fadeOut(1000);
+        $(".backhidden").toggleClass("backclicked");
         $(".bio").toggleClass("biohidden");
         $(".menu2hidden").toggleClass("menu2clicked");
         $(".menu3hidden").toggleClass("menu3clicked");
 });
     $(".menu2hidden").click(function(){
         $(".circle1").fadeOut(1000);
+        $(".backhidden").toggleClass("backclicked");
         $(".publications").toggleClass("publicationshidden");
         $(".menu1hidden").toggleClass("menu1clicked");
         $(".menu3hidden").toggleClass("menu3clicked");
 });
     $(".menu3hidden").click(function(){
         $(".circle3").fadeOut(1000);
+        $(".backhidden").toggleClass("backclicked");
         $(".github").toggleClass("githubhidden");
         $(".menu2hidden").toggleClass("menu2clicked");
         $(".menu1hidden").toggleClass("menu1clicked");

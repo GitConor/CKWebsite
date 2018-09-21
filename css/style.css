@@ -149,6 +149,8 @@ img {
 }
 
 .menu1clicked, .menu2clicked, .menu3clicked {
+  display: flex;
+  justify-items:center;
   height: 8vw;
   width: 8vw;
   z-index: 4;
@@ -261,7 +263,7 @@ img {
   justify-self: start;
   align-self: start;
   z-index: 3;
-  width: 100%;
+  width: 125%;
 }
 
 .circle1 {
