@@ -232,19 +232,19 @@ img {
 @media only screen and (max-device-width : 480px) {
 
 .menu1hidden {
-  grid-row: 3 / 9;
+  grid-row: 1 / 9;
   align-self: start;
   justify-self: center;  
 }
 
 .menu2hidden {
-  grid-row: 4 / 9;
+  grid-row: 2 / 9;
   align-self: start;
   justify-self: center;  
 }
 
 .menu3hidden {
-  grid-row: 5 / 9;
+  grid-row: 3 / 9;
   align-self: start;
   justify-self: center;  
 }
@@ -263,7 +263,25 @@ img {
   justify-self: start;
   align-self: start;
   z-index: 3;
-  width: 150%;
+  width: 100%;
+}
+
+.circle1 {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  z-index: 2;
+}
+
+.circle2 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  z-index: 2;
+}
+
+.circle3 {
+  grid-column: 3 / 5;
+  grid-row: 2;
+  z-index: 4;
 }
 }
 
