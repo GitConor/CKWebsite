@@ -294,21 +294,29 @@ img {
 @media only screen and (max-device-width : 480px) {
 
 .menu1hidden {
-  grid-row: 2;
+  grid-row: 3 / 9;
+  align-self: start;
+  justify-self: center;  
 }
 
 .menu2hidden {
-  grid-row: 3;
+  grid-row: 4 / 9;
+  align-self: start;
+  justify-self: center;  
 }
 
 .menu3hidden {
-  grid-row: 4;
+  grid-row: 5 / 9;
+  align-self: start;
+  justify-self: center;  
 }
 
 .menu1clicked, .menu2clicked, .menu3clicked {
   height: 20vw;
   width: 20vw;
   z-index: 4;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;  
 }
 
 .conorpic {
@@ -319,5 +327,34 @@ img {
   z-index: 3;
   width: 85%;
 }
+
+.checkhidden1, .checkhidden2, .checkhidden3 {
+  display: none;
+}
+
+.checked1 {
+  display: none;
+}
+
+.checkedback1 {
+  display: none;
+}
+
+.checked2 {
+  display: none;
+}
+
+.checkedback2 {
+  display: none;
+}
+
+.checked3 {
+  display:none;
+}
+
+.checkedback3 {
+  display:none;
+}
+
 }
 
