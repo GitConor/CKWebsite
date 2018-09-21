@@ -152,21 +152,19 @@ img {
   height: 8vw;
   width: 8vw;
   z-index: 4;
+  font-color: black;
 }
 
 .menu1clicked {
   background-color: #FFCC5C;
-  color: #FFCC5C;
 }
 
 .menu2clicked {
   background-color: #ECA408;
-  color: #ECA408;
 }
 
 .menu3clicked {
   background-color: #FFD986;
-  color: #FFD986;
 }
 
 .backgroundclicked {
