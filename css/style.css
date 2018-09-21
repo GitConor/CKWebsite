@@ -121,14 +121,13 @@ img {
 
 .menu1hidden:hover, .menu2hidden:hover, .menu3hidden:hover {
   text-align: center;
-  color: #FFAF4B;
+  background-color: #FFAF4B;
   font-size: 3vw;
   height: 13vw;
   width: 13vw;
   font-family: 'Rubik', sans-serif;
   font-weight: bold;  
   font-color: #BFF802;
-  background-color: #FFC086;
   border-color: #BFF802;
 }
 
