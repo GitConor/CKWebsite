@@ -1,5 +1,5 @@
 h1 {
-  font-size: calc(20px + 0.25vw);
+  font-size: calc(17px + 0.25vw);
   font-family: Roboto-Slab', dserif;
 }
 
@@ -314,36 +314,10 @@ img {
 .conorpic {
   grid-column: 2 / 4;
   grid-row: 1 / 6;
+  justify-self: start;
+  align-self: start;
   z-index: 3;
+  width: 85%;
 }
-
-.checked1 {
-  display: none;
-}
-
-.checkedback1 {
-  display: none;
-}
-
-.checkbounce {
-  display: none;
-}
-
-.checked2 {
-  display: none;
-}
-
-.checkedback2 {
-  display: none;
-}
-
-.checked3 {
-  display:none;
-}
-
-.checkedback3 {
-  display:none;
-}
-
 }
 
