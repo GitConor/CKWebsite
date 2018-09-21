@@ -43,7 +43,7 @@ img {
 .conorarrow {
   grid-column: 4;
   grid-row: 1;
-  align-self: end;
+  align-self: center;
   justify-self: end;
   z-index: 2;
 }
@@ -71,7 +71,6 @@ img {
 
 .circle1 {
   border-radius: 50%;
-  justify-self: end;
   width: 15vw;
   height: 15vw; 
   align-self: start;
