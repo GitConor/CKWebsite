@@ -44,7 +44,7 @@ img {
   grid-column: 4;
   grid-row: 1;
   align-self: end;
-  justify-self: start;
+  justify-self: end;
   z-index: 2;
 }
 
@@ -342,7 +342,6 @@ img {
   grid-row: 2 / 4;
 }
 
-
 .conorspeechbub {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
@@ -350,6 +349,7 @@ img {
 }
 
 .conorarrow {
+  align-self: end;
   width:75%;
 }
 
