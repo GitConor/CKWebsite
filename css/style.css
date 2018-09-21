@@ -120,14 +120,15 @@ img {
 
 .menu1hidden:hover, .menu2hidden:hover, .menu3hidden:hover {
   text-align: center;
-  border-color: #e7e6d6;
   color: #FFAF4B;
   font-size: 3vw;
   height: 13vw;
   width: 13vw;
   font-family: 'Rubik', sans-serif;
   font-weight: bold;  
-  background-color: #e7e6d6;
+  font-color: #BFF802;
+  background-color: #FFC086;
+  border-color: #BFF802;
 }
 
 .checked1 {
