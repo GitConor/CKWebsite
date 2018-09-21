@@ -140,6 +140,7 @@ img {
 .checkbounce {
   display: none;
 }
+
 .menu2hidden {
   display: flex;
   align-items: center;
@@ -284,17 +285,39 @@ img {
   width: 13vw;
   font-family: 'Rubik', sans-serif;
   font-weight: bold;  
-  font-color: #BFF802;
-  border-color: #BFF802;
+  font-color: black;
+  border-color: black;
   border-width: medium;
 }
 }
 
 @media only screen and (max-device-width : 480px) {
+
+.menu1hidden {
+  grid-row: 2;
+}
+
+.menu2hidden {
+  grid-row: 5;
+}
+
+.menu3hidden {
+  grid-row: 7;
+}
+
 .menu1clicked, .menu2clicked, .menu3clicked {
   height: 20vw;
   width: 20vw;
   z-index: 4;
+}
+
+.conorpic {
+  grid-column: 2 / 4;
+  grid-row: 1 / 6;
+  justify-self: start;
+  align-self: start;
+  z-index: 3;
+  width: 85%;
 }
 
 .checked1 {
