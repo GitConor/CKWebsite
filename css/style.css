@@ -217,7 +217,7 @@ img {
   grid-column: 2 / 5;
   align-self: start;
   justify-self: center;
-  opacity: 0.8;
+  opacity: 0.6;
   z-index: 5;
   height: 100vh;
   overflow: scroll;
