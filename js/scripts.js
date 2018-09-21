@@ -15,18 +15,19 @@ $(document).ready(function(){
     $(".menu1hidden").click(function(){
         $(".circle2").fadeOut(1000);
         $(".bio").toggleClass("biohidden");
-        $(".menu2clicked").toggleClass("menu2hidden");
-        $(".menu3clicked").toggleClass("menu3hidden");
+        $(".menu2hidden").toggleClass("menu2clicked");
+        $(".menu3hidden").toggleClass("menu3clicked");
 });
     $(".menu2hidden").click(function(){
         $(".circle1").fadeOut(1000);
         $(".publications").toggleClass("publicationshidden");
-        $(".menu3clicked").toggleClass("menu3hidden");
+        $(".menu1hidden").toggleClass("menu1clicked");
+        $(".menu3hidden").toggleClass("menu3clicked");
 });
     $(".menu3hidden").click(function(){
         $(".circle3").fadeOut(1000);
         $(".github").toggleClass("githubhidden");
-        $(".menu2clicked").toggleClass("menu2hidden");
-        $(".menu1clicked").toggleClass("menu1hidden");
+        $(".menu2hidden").toggleClass("menu2clicked");
+        $(".menu1hidden").toggleClass("menu1clicked");
 });
 });

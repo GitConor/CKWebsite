@@ -232,19 +232,19 @@ img {
 @media only screen and (max-device-width : 480px) {
 
 .menu1hidden {
-  grid-row: 1 / 9;
-  align-self: start;
-  justify-self: center;  
-}
-
-.menu2hidden {
   grid-row: 2 / 9;
   align-self: start;
   justify-self: center;  
 }
 
-.menu3hidden {
+.menu2hidden {
   grid-row: 3 / 9;
+  align-self: start;
+  justify-self: center;  
+}
+
+.menu3hidden {
+  grid-row: 4 / 9;
   align-self: start;
   justify-self: center;  
 }
