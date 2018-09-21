@@ -280,7 +280,7 @@ img {
   justify-self: start;
   align-self: start;
   z-index: 3;
-  width: 125%;
+  width: 140%;
 }
 
 .circle1 {
@@ -339,7 +339,7 @@ img {
   justify-self: end;
   align-self: end;
   grid-column: 4;
-  grid-row: 3;
+  grid-row: 2 / 3;
 }
 }
 
