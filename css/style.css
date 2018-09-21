@@ -156,7 +156,6 @@ img {
   z-index: 2;
   height: 0vw;
   width: 0vh;
-  overflow: hidden;
   font-color: black;
 }
 
@@ -171,7 +170,8 @@ img {
 
 .menu1clicked, .menu2clicked, .menu3clicked {
   display: flex;
-  justify-items:center;
+  justify-items: center;
+  align-items: center;
   height: 8vw;
   width: 8vw;
   z-index: 4;
@@ -270,7 +270,7 @@ img {
   justify-self: center;  
 }
 
-.menu1clicked, .menu2clicked, .menu3clicked {
+.menu1clicked, .menu2clicked, .menu3clicked, .backclicked {
   height: 20vw;
   width: 20vw;
   z-index: 4;
