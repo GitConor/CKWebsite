@@ -1,9 +1,10 @@
 h1 {
-font-size: 13px;
+  font-size: 13px;
 }
 
 p {
-font-size: 12px;
+  font-size: calc(16px +0.25vw);
+  font-family: Roboto-Slab', dserif;
 }
 
 html {
