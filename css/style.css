@@ -1,9 +1,10 @@
 h1 {
-  font-size: 13px;
+  font-size: calc(20px + 0.25vw);
+  font-family: Roboto-Slab', dserif;
 }
 
 p {
-  font-size: calc(16px +0.25vw);
+  font-size: calc(16px + 0.25vw);
   font-family: Roboto-Slab', dserif;
 }
 
