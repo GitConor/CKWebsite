@@ -117,7 +117,7 @@ img {
   transition: height width 3s;
   opacity: 0.7;
   overflow: hidden;
-  font-color: #FFD986;
+  font-color: black;
 }
 
 .checked1 {
@@ -156,7 +156,7 @@ img {
   transition: height width 3s;
   opacity: 0.7;
   overflow: hidden;
-  font-color: #FFD986;
+  font-color: black;
 }
 
 .checked2 {
@@ -191,7 +191,7 @@ img {
   transition: height width 3s;
   opacity: 0.7;
   overflow: hidden;
-  font-color: #FFD986;
+  font-color: black;
 }
 
 .checked3 {
@@ -277,6 +277,7 @@ img {
 }
 
 @media only screen and (min-device-width : 480px) {
+
 .menu1hidden:hover, .menu2hidden:hover, .menu3hidden:hover {
   text-align: center;
   background-color: #FFAF4B;
@@ -285,7 +286,6 @@ img {
   width: 13vw;
   font-family: 'Rubik', sans-serif;
   font-weight: bold;  
-  font-color: black;
   border-color: black;
   border-width: medium;
 }
@@ -305,7 +305,7 @@ img {
   grid-row: 7;
 }
 
-.menu1clicked, .menu2clicked, .menu3clicked {
+.menu1hidden, .menu2hidden, .menu3hidden {
   height: 20vw;
   width: 20vw;
   z-index: 4;
