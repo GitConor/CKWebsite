@@ -120,19 +120,6 @@ img {
   font-color: #FFD986;
 }
 
-.menu1hidden:hover, .menu2hidden:hover, .menu3hidden:hover {
-  text-align: center;
-  background-color: #FFAF4B;
-  font-size: 3vw;
-  height: 13vw;
-  width: 13vw;
-  font-family: 'Rubik', sans-serif;
-  font-weight: bold;  
-  font-color: #BFF802;
-  border-color: #BFF802;
-  border-width: medium;
-}
-
 .checked1 {
   border-radius: 30%;
   position: relative;
@@ -249,7 +236,6 @@ img {
 }
 
 .bio, .publications, .github {
-  font-family: 'Montserrat', sans-serif;
   grid-row: 1 / 8;
   grid-column: 2 / 5;
   align-self: start;
@@ -288,3 +274,56 @@ img {
   width: 100%;
   display: none;
 }
+
+@media only screen and (min-device-width : 480px) {
+.menu1hidden:hover, .menu2hidden:hover, .menu3hidden:hover {
+  text-align: center;
+  background-color: #FFAF4B;
+  font-size: 3vw;
+  height: 13vw;
+  width: 13vw;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;  
+  font-color: #BFF802;
+  border-color: #BFF802;
+  border-width: medium;
+}
+}
+
+@media only screen and (max-device-width : 480px) {
+.menu1clicked, .menu2clicked, .menu3clicked {
+  height: 20vw;
+  width: 20vw;
+  z-index: 4;
+}
+
+.checked1 {
+  display: none;
+}
+
+.checkedback1 {
+  display: none;
+}
+
+.checkbounce {
+  display: none;
+}
+
+.checked2 {
+  display: none;
+}
+
+.checkedback2 {
+  display: none;
+}
+
+.checked3 {
+  display:none;
+}
+
+.checkedback3 {
+  display:none;
+}
+
+}
+
