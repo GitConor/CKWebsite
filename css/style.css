@@ -149,27 +149,28 @@ img {
 }
 
 .menu1clicked, .menu2clicked, .menu3clicked, .backclicked {
-  height: 20vw;
-  width: 20vw;
+  height: 25vw;
+  width: 25vw;
   z-index: 4;
   font-family: 'Rubik', sans-serif;
   font-weight: bold;  
 }
 
 .backhidden {
-  grid-column: 3;
-  grid-row: 3;
+  grid-column: 1;
+  grid-row: 1;
   align-self: center;
   justify-self: center;  
   z-index: 10;
   height: 0vh;
   width: 0vw;
   overflow: hidden;
-  font-color: white;
+  font-color: black;
 }
 
 .backclicked {
   display: flex;
+  text-decoration: underline;
   justify-content: center;
   align-items: center;
   height: 20vw;
@@ -248,13 +249,6 @@ img {
 .menu1hidden:hover, .menu2hidden:hover, .menu3hidden:hover {
   text-align: center;
   background-color: #FFAF4B;
-  font-size: 3vw;
-  height: 13vw;
-  width: 13vw;
-  font-family: 'Rubik', sans-serif;
-  font-weight: bold;  
-  border-color: black;
-  border-width: medium;
 }
 }
 
@@ -303,6 +297,22 @@ img {
   grid-column: 3 / 5;
   grid-row: 2;
   z-index: 4;
+}
+
+.menu1clicked, .menu2clicked, .menu3clicked, .backclicked {
+  height: 25vw;
+  width: 25vw;
+  z-index: 4;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;  
+}
+
+.backclicked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vw;
+  width: 25vw;
 }
 }
 
