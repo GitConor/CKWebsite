@@ -161,7 +161,7 @@ img {
   grid-row: 1;
   align-self: start;
   justify-self: center;  
-  z-index: 10;
+  z-index: 1;
   height: 0vh;
   width: 0vw;
   overflow: hidden;
@@ -173,8 +173,8 @@ img {
   text-decoration: underline;
   justify-content: center;
   align-items: center;
-  height: 20vw;
-  width: 20vw;
+  height: 8vw;
+  width: 8vw;
 }
 
 .menu1clicked, .menu2clicked, .menu3clicked {
