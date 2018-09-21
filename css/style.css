@@ -72,8 +72,8 @@ img {
 .circle1 {
   border-radius: 50%;
   justify-self: end;
-  width: 10vw;
-  height: 10vw; 
+  width: 15vw;
+  height: 15vw; 
   align-self: start;
   justify-self: start;
   grid-column: 2 / 3;
@@ -86,7 +86,7 @@ img {
   width: 15vw;
   height: 15vw; 
   align-self: center;
-  justify-self: center;
+  justify-self: end;
   grid-column: 3 / 4;
   grid-row: 1 / 2;
   z-index: 2;
@@ -96,7 +96,7 @@ img {
   border-radius: 50%;
   width: 20vw;
   height: 20vw; 
-  justify-self: start;
+  justify-self: end;
   align-self: end;
   grid-column: 3 / 5;
   grid-row: 2;
@@ -159,7 +159,7 @@ img {
 .backhidden {
   grid-column: 1;
   grid-row: 1;
-  align-self: center;
+  align-self: start;
   justify-self: center;  
   z-index: 10;
   height: 0vh;
@@ -313,6 +313,31 @@ img {
   align-items: center;
   height: 25vw;
   width: 25vw;
+}
+
+.circle1 {
+  width: 15vw;
+  height: 15vw; 
+  align-self: start;
+  justify-self: start;
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+
+.circle2 {
+  align-self: center;
+  justify-self: end;
+  grid-column: 3 / 5;
+  grid-row: 1 / 2;
+}
+
+.circle3 {
+  width: 20vw;
+  height: 20vw; 
+  justify-self: end;
+  align-self: end;
+  grid-column: 3 / 5;
+  grid-row: 2;
 }
 }
 
