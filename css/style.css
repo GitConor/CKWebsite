@@ -233,7 +233,7 @@ img {
 
 .bridgecookiehidden {
   grid-row: 1 / 6;
-  grid-column: 1 / 6;
+  grid-column: 2 / 5;
   position: relative;
   right: -100vw;
   z-index: 1;
@@ -350,10 +350,6 @@ img {
 .conorarrow {
   align-self: end;
   width:75%;
-}
-
-.bridgecookiehidden {
-  grid-column: 1 / 6;
 }
 }
 
