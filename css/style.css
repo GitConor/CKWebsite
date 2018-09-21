@@ -148,6 +148,27 @@ img {
   font-color: black;
 }
 
+.backhidden {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;  
+  z-index: 2;
+  height: 0vw;
+  width: 0vh;
+  overflow: hidden;
+  font-color: black;
+}
+
+.backclicked {
+  display: flex;
+  justify-items:center;
+  height: 8vw;
+  width: 8vw;
+  z-index: 4;
+  font-color: black;
+}
+
 .menu1clicked, .menu2clicked, .menu3clicked {
   display: flex;
   justify-items:center;
