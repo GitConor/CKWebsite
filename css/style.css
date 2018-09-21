@@ -87,8 +87,8 @@ img {
   height: 15vw; 
   align-self: center;
   justify-self: end;
-  grid-column: 3 / 4;
-  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
   z-index: 2;
 }
 
@@ -96,7 +96,7 @@ img {
   border-radius: 50%;
   width: 20vw;
   height: 20vw; 
-  justify-self: end;
+  justify-self: start;
   align-self: end;
   grid-column: 3 / 5;
   grid-row: 2;
@@ -327,8 +327,8 @@ img {
 }
 
 .circle2 {
-  align-self: center;
-  justify-self: end;
+  align-self: start;
+  justify-self: center;
   grid-column: 4 / 5;
   grid-row: 2 / 3;
 }
@@ -339,7 +339,7 @@ img {
   justify-self: end;
   align-self: end;
   grid-column: 4;
-  grid-row: 4;
+  grid-row: 3;
 }
 }
 
