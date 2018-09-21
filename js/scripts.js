@@ -14,29 +14,14 @@ $(document).ready(function(){
     });
     $(".menu1hidden").click(function(){
         $(".circle2").fadeOut(1000);
-        $(".checkedback2").toggleClass("checkbounce");
-        $(".checkedback3").toggleClass("checkbounce");
-        $(".checked1").addClass("checkedback1");
-	$(".menu2hidden").toggleClass("menu2clicked");
-	$(".menu3hidden").toggleClass("menu3clicked");
         $(".bio").toggleClass("biohidden");
 });
     $(".menu2hidden").click(function(){
         $(".circle1").fadeOut(1000);
-        $(".checkedback1").toggleClass("checkbounce");
-        $(".checkedback3").toggleClass("checkbounce");
-        $(".checked2").addClass("checkedback2");
-	$(".menu1hidden").toggleClass("menu1clicked");
-	$(".menu3hidden").toggleClass("menu3clicked");
         $(".publications").toggleClass("publicationshidden");
 });
     $(".menu3hidden").click(function(){
         $(".circle3").fadeOut(1000);
-        $(".checkedback1").toggleClass("checkbounce");
-        $(".checkedback2").toggleClass("checkbounce");
-        $(".checked3").addClass("checkedback3");
-	$(".menu1hidden").toggleClass("menu1clicked");
-	$(".menu2hidden").toggleClass("menu2clicked");
         $(".github").toggleClass("githubhidden");
 });
 });
