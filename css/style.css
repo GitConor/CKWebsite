@@ -298,14 +298,14 @@ img {
 }
 
 .menu2hidden {
-  grid-row: 5;
+  grid-row: 3;
 }
 
 .menu3hidden {
-  grid-row: 7;
+  grid-row: 4;
 }
 
-.menu1hidden, .menu2hidden, .menu3hidden {
+.menu1clicked, .menu2clicked, .menu3clicked {
   height: 20vw;
   width: 20vw;
   z-index: 4;
@@ -314,10 +314,7 @@ img {
 .conorpic {
   grid-column: 2 / 4;
   grid-row: 1 / 6;
-  justify-self: start;
-  align-self: start;
   z-index: 3;
-  width: 85%;
 }
 
 .checked1 {
