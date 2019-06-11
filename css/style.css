@@ -26,6 +26,7 @@ img {
   background-attachment: fixed;
   background-image: linear-gradient(#FFAF4B, #FF920A);
   transition: background-image 2s;
+  overflow: hidden;
 }
 
 .container {
@@ -233,7 +234,7 @@ img {
 
 .bridgecookiehidden {
   grid-row: 1 / 6;
-  grid-column: 2 / 5;
+  grid-column: 1 / 5;
   position: relative;
   right: -100vw;
   z-index: 1;
